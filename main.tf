@@ -8,6 +8,6 @@ resource "aws_s3_bucket" "my_bucket" {
 
   tags = {
     Name                        = "My S3 Bucket"
-    Environment = "Development"
+    Environment             = "Development"
   }
 }
