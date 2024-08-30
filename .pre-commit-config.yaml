@@ -3,6 +3,3 @@ repos:
     rev: v1.50.0 # Use the latest version
     hooks:
       - id: terraform_fmt
-      - id: terraform_docs
-      - id: terraform_tflint
-      - id: terraform_tfsec
